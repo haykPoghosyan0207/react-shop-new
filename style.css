@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #678EDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 2000px;
+    background: #5D1F8C;
+
+}
+
+.title {
+    color: #2E341E;
+}
+
+.lineOne {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.lineTwo {
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.lineThree {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.fomra {
+    width: 33%;
+    height:450px;
+    background: #999;
+    flex-direction: column;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fa {
+    width: auto;
+    background: transparent;
+    border: 0px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.3s;
+}
+
+.fa:hover {
+    color: #fff;
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+.club {
+    width: 80%;
+    height: 80%;
+    transition: 0.5s;
+}
+
+.img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.popUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    display: none;
+
+}
+.popUp img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid black;
+    width: 700px;
+}
+.popUp span {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.calculate{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    /* color:#fff;     */
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+    
+}
+.calculate p {
+    font-size: 25px;
+    color: #fff;
+}

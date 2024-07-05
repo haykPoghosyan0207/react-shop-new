@@ -1,0 +1,30 @@
+.LifeStyle{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3,30%);
+	gap: 2%;
+}
+.LifeStyle > li > img{
+	width: 80%;
+	height: 250px;
+	transition: 1s;
+	border-radius: 15px;
+	opacity: 0.95;
+}
+.LifeStyle > li{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.LifeStyle > li >p {
+	font-size: 20px;
+	width: 60%;
+}
+
+.LifeStyle > li > img:hover{
+	transform: scale(1.1);
+	border-radius: 0;
+	opacity: 1;
+}

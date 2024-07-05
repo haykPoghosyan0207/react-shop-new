@@ -1,0 +1,5 @@
+.FashionSection {
+	display: grid;
+	grid-template-columns: repeat(3,32%);
+	gap: 2%;
+}

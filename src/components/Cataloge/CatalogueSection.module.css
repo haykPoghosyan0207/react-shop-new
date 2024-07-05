@@ -1,0 +1,11 @@
+.CatalogSection{
+	width: 100%;
+	/* margin-left: %; */
+	display: grid;
+	grid-template-columns: repeat(3,30%);
+	gap: 1%;
+}
+/* .CatalogSection > li{
+	width: 250px;
+	height: 150px; */
+/* } */

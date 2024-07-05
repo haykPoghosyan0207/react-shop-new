@@ -1,0 +1,25 @@
+.FashionFilter > img{
+	width: 250px;
+	height: auto;	
+	transition: 1s;
+	border: 1px solid gray;
+	border-radius: 10px;
+	opacity: 0.95;
+	box-shadow: 5px 3px 3px gray
+}
+.FashionFilter > img:hover{
+	transform: scale(1.2);
+	box-shadow: 10px 5px 5px gray;
+	border-radius: 0;
+	opacity: 1;
+}
+.FashionFilter{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.FashionFilter > p {
+	font-size: 20px;
+}

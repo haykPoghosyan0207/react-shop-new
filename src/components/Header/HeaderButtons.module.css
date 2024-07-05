@@ -1,0 +1,14 @@
+.HeaderButton{
+	width: 120px;
+	height: 40px;
+	background: transparent;
+	color: black;
+	transition: 0.8s;
+	border-radius: 8px;
+}
+.HeaderButton:hover{
+	background: rgb(217, 225, 68);
+	border-radius: 3px;
+	opacity: 0.7;
+	color: #000;
+}

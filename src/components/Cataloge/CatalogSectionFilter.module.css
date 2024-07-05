@@ -1,0 +1,32 @@
+.catalogList > img {
+	width: 75%;
+	height: 80%;
+	background-size: cover;
+	border-radius: 15px;
+	background-position: center;
+	border: 2px solid black;
+	transition: 0.8s;
+	box-shadow: 5px 3px 3px gray
+
+	
+}
+.catalogList > img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	box-shadow: 10px 5px 5px gray;
+
+}
+.catalogList >p{
+	width: 80%;
+	font-size: 23px;
+}
+.catalogList{
+	height: 450px;
+	/* height: 1%; */
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

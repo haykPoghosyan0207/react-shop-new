@@ -1,0 +1,12 @@
+.Arrivals {
+	width: 100%;
+	height:500px ;
+	/* background: #000; */
+	display: flex;
+	/* justify-content: center; */
+	gap: 1%;
+}
+.ArrivalsImg{
+	width: 100%;
+	height: 50px;
+}

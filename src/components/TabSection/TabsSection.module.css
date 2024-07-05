@@ -1,0 +1,7 @@
+.TabsSection {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	gap: 3%;
+}

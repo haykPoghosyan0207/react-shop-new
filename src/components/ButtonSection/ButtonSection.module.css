@@ -1,0 +1,11 @@
+.ButtonsSection  {
+	width: 150px;
+	height: 50px;
+	background: gray;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.ButtonsSection:hover{
+	cursor: pointer;
+}

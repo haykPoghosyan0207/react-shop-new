@@ -1,0 +1,21 @@
+.FavoriteGrow{
+	width: 100%;
+	/* height: auto; */
+	display: grid;
+	grid-template-columns: repeat(3,32%);
+	padding-left:5%
+}
+.FavoriteGrow > li > img {
+	transition: 1s;
+	border: 2px solid gold;
+	border-radius: 5px;
+	box-shadow: 5px 3px 3px gray
+
+}
+.FavoriteGrow > li >img:hover{
+	transform: scale(1.1);
+	border-radius: 0;
+}
+.FavoriteGrow > li {
+	list-style: none;
+}
